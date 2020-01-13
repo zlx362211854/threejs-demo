@@ -38,7 +38,7 @@ list.forEach(i => {
 var render = function() {
   requestAnimationFrame(render);
   list.forEach(i => {
-    var eangle = 1/36 
+    var eangle = 1/36 // 地球旋转递增的角度
     console.log(i.position, 'i')
     // var ex = i.position.x
     // var ez = i.position.z
